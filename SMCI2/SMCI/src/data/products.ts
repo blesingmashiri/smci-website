@@ -1,0 +1,66 @@
+export interface Product {
+  id: number;
+  name: string;
+  category: string;
+  price: number;
+  image: string;
+}
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "HP ProBook 450",
+    category: "Laptops",
+    price: 850,
+    image: "/images/shop/hp-probook-450.jpg.jpeg",
+  },
+  {
+    id: 2,
+    name: "Dell Vostro Tower",
+    category: "Desktops",
+    price: 720,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.56.17.jpeg",
+  },
+  {
+    id: 3,
+    name: "Epson EcoTank L3150",
+    category: "Printers",
+    price: 250,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.56.36.jpeg",
+  },
+  {
+    id: 4,
+    name: "Logitech Wireless Mouse",
+    category: "Accessories",
+    price: 25,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.57.16.jpeg",
+  },
+  {
+    id: 5,
+    name: "Lenovo ThinkPad E14",
+    category: "Laptops",
+    price: 950,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.58.28.jpeg",
+  },
+  {
+    id: 6,
+    name: "Canon ImageRUNNER",
+    category: "Printers",
+    price: 1200,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 03.35.12.jpeg",
+  },
+  {
+    id: 7,
+    name: "Samsung 24\" Monitor",
+    category: "Accessories",
+    price: 180,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.58.49.jpeg",
+  },
+  {
+    id: 8,
+    name: "HP EliteDesk 800",
+    category: "Desktops",
+    price: 890,
+    image: "/images/shop/WhatsApp Image 2026-01-26 at 02.59.07.jpeg",
+  },
+];

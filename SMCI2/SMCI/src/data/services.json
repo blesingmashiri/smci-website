@@ -1,0 +1,72 @@
+[
+  {
+    "title": "COMPUTER SALES AND SUPPLIES",
+    "icon": "/images/icons/hardware.png",
+    "desc": "Approved supplier of Computers, Hardware and Software with the Ministry of Education, Private Organisations, NGOs and Individuals. Desktops, laptops, servers, and complete computer systems."
+  },
+  {
+    "title": "NETWORKING HARDWARE AND SUPPLIES AND SERVICES",
+    "icon": "/images/icons/networking.png",
+    "desc": "Complete network infrastructure design, installation, and maintenance. Routers, switches, structured cabling, wireless networks, and network security solutions."
+  },
+  {
+    "title": "COMPUTER MAINTENANCE AND SERVICING",
+    "icon": "/images/icons/maintenance.png",
+    "desc": "Comprehensive hardware repairs, software troubleshooting, preventive maintenance, and annual maintenance contracts for all computer equipment."
+  },
+  {
+    "title": "COMPUTER CONSUMABLES AND ACCESSORIES",
+    "icon": "/images/icons/consumables.png",
+    "desc": "Supply of printer toners, ink cartridges, cables, keyboards, mice, monitors, and all computer accessories and consumables."
+  },
+  {
+    "title": "COMPUTER LAB DESIGNS AND FULL FITTING",
+    "icon": "/images/icons/designing.png",
+    "desc": "Complete computer lab design including floor tiling, carpentry, metal fabrication, burglar ceilings, electrical wiring, networking, and windows blinds."
+  },
+  {
+    "title": "PASTEL ACCOUNTING INSTALLATION AND TRAINING",
+    "icon": "/images/icons/accounting.png",
+    "desc": "Professional Pastel accounting software installation, setup, and comprehensive training for financial management and bookkeeping."
+  },
+  {
+    "title": "APPLICATION SOFTWARES",
+    "icon": "/images/icons/software.png",
+    "desc": "Timetable Generation applications, E-learning packages, Teacher Development Programs, Website Designing and Hosting, and specialized business applications."
+  },
+  {
+    "title": "Designing and Fitting World",
+    "icon": "/images/icons/designing.png",
+    "desc": "Computer labs, furniture, electrical wiring, metal fabrication and lab infrastructure with over 22 years of experience."
+  },
+  {
+    "title": "Computer Hardware World",
+    "icon": "/images/icons/hardware.png",
+    "desc": "Desktops, laptops, printers, projectors, networking hardware, learning aids and comprehensive hardware support."
+  },
+  {
+    "title": "Computer Software World",
+    "icon": "/images/icons/software.png",
+    "desc": "Operating Systems, Microsoft Office, antivirus, educational software, research encyclopaedia, brain games, and LMS platforms."
+  },
+  {
+    "title": "Customised Training World",
+    "icon": "/images/icons/training.png",
+    "desc": "Sandcircle MCI certified programs, customised organization training, introduction to advanced hardware and software courses, and computerized accounting training."
+  },
+  {
+    "title": "Management Processes and Systems World",
+    "icon": "/images/icons/management.png",
+    "desc": "Business registration, management counselling, statutory returns, public relations, human capital policies, and accounting packages."
+  },
+  {
+    "title": "Security Systems World",
+    "icon": "/images/icons/security.png",
+    "desc": "IT-based security hardware and software, access control systems, clocking systems, and security training with backup and maintenance."
+  },
+  {
+    "title": "E-Learning World",
+    "icon": "/images/icons/elearning.png",
+    "desc": "E-Learning portals, online learning platforms, website designing, E-Library for Private Organisations (ELPo) and Education (ELEd), and interactive E-Classes."
+  }
+]

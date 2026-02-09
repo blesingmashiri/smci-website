@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Remove all underlines from navigation links */
+nav a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* ✅ THE REAL FIX - Remove all height constraints */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* 🎯 LAYOUT STRUCTURE CSS */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-content {
+  flex: 1;
+  position: relative;
+  z-index: 10;
+}
+
+.footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* 🤖 CHATBOT MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  /* Ensure chatbot is always visible on mobile */
+  div[style*="position: fixed"][style*="z-index: 999999"] {
+    bottom: 16px !important;
+    right: 16px !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+  
+  /* Chat window mobile optimization */
+  .w-80 {
+    width: 90vw !important;
+    max-width: 320px !important;
+  }
+  
+  /* Chat button mobile size */
+  .w-14 {
+    width: 56px !important;
+    height: 56px !important;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-float { animation: float 3s ease-in-out infinite; }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fade-in 1s ease forwards; }
+.delay-200 { animation-delay: 0.2s; }
+
+/* ===== CHATBOT MOBILE FORCE VISIBILITY ===== */
+@media (max-width: 768px) {
+  .chatbot-wrapper {
+    position: fixed !important;
+    bottom: 16px !important;
+    right: 16px !important;
+    z-index: 999999 !important;
+    pointer-events: auto !important;
+  }
+
+  .chatbot-wrapper button {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 50% !important;
+    font-size: 22px !important;
+  }
+
+  .chatbot-wrapper .w-80 {
+    width: 90vw !important;
+    max-width: 340px !important;
+    max-height: 70vh !important;
+  }
+}
+
+/* 🔴 FINAL MOBILE VIEWPORT FIX */
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto !important;
+  height: auto !important;
+  position: static !important;
+}
+
+.app-container {
+  overflow: visible !important;
+}
