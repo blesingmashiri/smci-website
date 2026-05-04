@@ -32,7 +32,7 @@ const slides: HeroSlide[] = [
   {
     id: 2,
     title: "ICT Solutions That Empower",
-    subtitle: "22+ Years of Excellence",
+    subtitle: "25 Years of Excellence",
     description: "We provide reliable ICT hardware, software, networking, and training solutions across Zimbabwe.",
     imageUrl: "/images/hero/hero-2.jpg",
   },
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { value: "2001", label: "Established" },
-              { value: "22+", label: "Years Experience" },
+              { value: "25", label: "Years Experience" },
               { value: "100+", label: "Schools Served" },
               { value: "24/7", label: "Support" },
             ].map((item, i) => (
@@ -181,7 +181,7 @@ export default function Home() {
               Sandcircle Management Consultancy International (SMCI) is a wholly Zimbabwean and indigenously owned business providing spot-on ICT hardware and software solutions.
             </motion.p>
             <motion.p className="text-lg text-gray-700" initial={{ opacity:0, y:20 }} whileInView={{ opacity:1, y:0 }} viewport={{once:true}} transition={{duration:0.5, delay:0.2}}>
-              With over 22 years of experience, we aim to be the preferred one-stop choice for ICT solutions built on honesty, efficiency, and expertise.
+              With 25 years of experience, we aim to be the preferred one-stop choice for ICT solutions built on honesty, efficiency, and expertise.
             </motion.p>
           </div>
         </motion.section>

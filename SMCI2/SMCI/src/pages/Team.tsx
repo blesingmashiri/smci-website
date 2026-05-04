@@ -132,7 +132,7 @@ export default function Team() {
 
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Experience</h3>
 
-              <p className="text-gray-700">22+ years of proven expertise</p>
+              <p className="text-gray-700">25 years of proven expertise</p>
 
             </div>
 
@@ -156,9 +156,57 @@ export default function Team() {
 
       </section>
 
+      {/* Our Work Gallery - NEW SECTION */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Our Recent Projects</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Computer-lab-installation.jpeg" alt="Computer Lab Installation" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Computer Lab Installation</h4>
+                <p className="text-gray-600 text-sm">Complete ICT lab setup for educational institutions</p>
+              </div>
+            </div>
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Networked.jpeg" alt="Network Setup" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Network Infrastructure</h4>
+                <p className="text-gray-600 text-sm">Professional network design and implementation</p>
+              </div>
+            </div>
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Custom-fabrication.jpeg" alt="Fabrication Workshop" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Custom Fabrication</h4>
+                <p className="text-gray-600 text-sm">Bespoke furniture and equipment manufacturing</p>
+              </div>
+            </div>
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Training.jpeg" alt="Training Session" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Training Programs</h4>
+                <p className="text-gray-600 text-sm">Professional ICT training and workshops</p>
+              </div>
+            </div>
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Office-setup.jpeg" alt="Office Setup" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Corporate Solutions</h4>
+                <p className="text-gray-600 text-sm">Complete office ICT infrastructure setup</p>
+              </div>
+            </div>
+            <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+              <img src="/images/team/Maintenence.jpeg" alt="Maintenance Service" className="w-full h-48 object-cover" />
+              <div className="p-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Maintenance & Support</h4>
+                <p className="text-gray-600 text-sm">Ongoing technical support and maintenance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
-
   );
-
 }
-

@@ -6,7 +6,7 @@ export default function Services() {
     {
       icon: Monitor,
       title: "Computer Sales and Supplies",
-      description: "We are an approved supplier of Computers, Hardware and Software with the Ministry of Education, Private Organisations, NGOs and Individuals, with reference and credibility that is over twenty two years of trading. We propose and offer our expanded products portfolio.",
+      description: "We are an approved supplier of Computers, Hardware and Software with the Ministry of Education, Private Organisations, NGOs and Individuals, with reference and credibility that is over twenty two years of trading. We propose and offer our expanded products clientelle portfolio.",
       features: ["Desktops and Desktop Parts", "Laptops and Laptops Parts", "Printers and Scanners", "Projectors and Electrical Projector Boards", "Learning Aids (Surround Sound, Interactive Boards)", "Hardware user training and support"],
       color: "blue"
     },

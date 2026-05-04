@@ -67,22 +67,6 @@ const Portfolio = () => {
   // Simplified client categories for overview
   const clients = [
     {
-      category: 'Schools & Educational Institutions',
-      icon: School,
-      names: [
-        'Falcon College', 'Girls College', 'Whitestone School', 'Petra High School', 
-        'Christian Brothers College (CBC)', 'Carmel School', 'St. Thomas Aquinas',
-        'Dominican Convent', 'Masiyephambili Junior', 'Masiyephambili Senior',
-        'Centenary School', 'Coalfields Primary', 'Kyle College', 'Midlands Christian College',
-        'Goldridge College', 'Camelot School', 'Bata School', 'Lendy Park',
-        'Ruzawi School', 'Springvale House', 'Peterhouse Boys', 'Peterhouse Girls',
-        'Chisipite Senior', 'Bishopslea', 'St. Johns College', 'St. Johns Prep',
-        'Hartmann House', 'St. Georges College', 'Gateway Primary', 'Gateway Senior',
-        'Heritage School', 'Twin Rivers', 'Lilfordia', 'Bryden', 'Lomaquindi College',
-        'Hippo Valley Estates Schools', 'Murray MacDougall', 'Triangle Schools'
-      ]
-    },
-    {
       category: 'Corporate & NGOs',
       icon: Building,
       names: [
@@ -103,10 +87,10 @@ const Portfolio = () => {
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Portfolio & Clients</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Clientelle Portfolio</h1>
           <p className="text-xl md:text-2xl opacity-90">"Efficiency Our Virtue, Experience Our Attitude!!!"</p>
           <p className="text-lg mt-4 opacity-80">
-            Trusted by over 100+ organizations across Zimbabwe for more than 22 years
+            Trusted by over 100+ organizations across Zimbabwe for 25 years
           </p>
         </div>
       </div>
@@ -124,7 +108,7 @@ const Portfolio = () => {
             <div className="mb-16">
               <div className="max-w-4xl mx-auto text-center mb-12">
                 <p className="text-lg text-gray-600">
-                  With over 22 years of experience, we have built lasting relationships with Zimbabwe's leading educational institutions and organizations.
+                  With 25 years of experience, we have built lasting relationships with Zimbabwe's leading educational institutions and organizations.
                 </p>
               </div>
               
@@ -320,7 +304,7 @@ const Portfolio = () => {
                   <p className="text-gray-700">Educational Institutions</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-bold text-purple-600 mb-2">22+</h3>
+                  <h3 className="text-2xl font-bold text-purple-600 mb-2">25 </h3>
                   <p className="text-gray-700">Years of Service</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">

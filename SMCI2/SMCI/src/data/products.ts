@@ -12,7 +12,7 @@ export const products: Product[] = [
     name: "HP ProBook 450",
     category: "Laptops",
     price: 850,
-    image: "/images/shop/hp-probook-450.jpg.jpeg",
+    image: "/images/shop/hp-probook-450.jpeg",
   },
   {
     id: 2,

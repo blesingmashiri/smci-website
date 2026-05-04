@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import TopBar from "../TopBar";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import Analytics from "../Analytics";
 
 export default function MainLayout() {
   return (
@@ -21,6 +22,9 @@ export default function MainLayout() {
       <footer className="footer">
         <Footer />
       </footer>
+      
+      {/* Analytics Component */}
+      <Analytics />
     </div>
   );
 }

@@ -54,9 +54,8 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
                 <div className="text-sm text-gray-300 flex flex-col">
-                  <a href="tel:+263292884988" className="hover:text-blue-400">+263 292 884988</a>
-                  <a href="tel:+263772351216" className="hover:text-blue-400">+263 772 351 216</a>
-                </div>
+                  <a href="tel:+263292884998" className="hover:text-blue-400">+263 292 884998</a>
+                                  </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-blue-400 flex-shrink-0" />
@@ -76,12 +75,16 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-blue-400 transition-colors">About Us</Link></li>
               <li><Link to="/services" className="hover:text-blue-400 transition-colors">Our Services</Link></li>
               <li><Link to="/shop" className="hover:text-blue-400 transition-colors">Shop Hardware</Link></li>
-              <li><Link to="/portfolio" className="hover:text-blue-400 transition-colors">Client Portfolio</Link></li>
+              <li><Link to="/portfolio" className="hover:text-blue-400 transition-colors">Clientelle Portfolio</Link></li>
               <li><Link to="/contact" className="hover:text-blue-400 transition-colors">Contact Support</Link></li>
-              <li><Link to="/timeline" className="hover:text-blue-400 transition-colors">Timeline</Link></li>
+              <li><Link to="/timeline" className="hover:text-blue-400 transition-colors">Beneficiaries Timeline</Link></li>
+              <li><Link to="/events-timeline" className="hover:text-blue-400 transition-colors">Events Timeline</Link></li>
+              <li><Link to="/attachees-timeline" className="hover:text-blue-400 transition-colors">Attachées Timeline</Link></li>
+              <li><Link to="/projects-timeline" className="hover:text-blue-400 transition-colors">Projects Timeline</Link></li>
               <li><Link to="/process" className="hover:text-blue-400 transition-colors">Our Process</Link></li>
               <li><Link to="/testimonials" className="hover:text-blue-400 transition-colors">Testimonials</Link></li>
               <li><Link to="/resources" className="hover:text-blue-400 transition-colors">Resources & Downloads</Link></li>
+              <li><Link to="/policies" className="hover:text-blue-400 transition-colors">Policies & Compliance</Link></li>
               <li><Link to="/terms" className="hover:text-blue-400 transition-colors">Terms & Conditions</Link></li>
               <li><Link to="/privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link></li>
             </ul>

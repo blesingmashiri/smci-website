@@ -13,13 +13,9 @@ export default function TopBar() {
           </span>
           <span className="flex items-center gap-1">
             <Phone size={14} />
-            +263 292 884988
+            +263 292 884998
           </span>
-          <span className="hidden sm:flex items-center gap-1">
-            <Phone size={14} />
-            +263 772 351 216
-          </span>
-        </div>
+                  </div>
 
         {/* Right */}
         <div className="hidden sm:block italic text-blue-100 text-center md:text-right">

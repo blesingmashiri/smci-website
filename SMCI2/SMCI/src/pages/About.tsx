@@ -45,7 +45,7 @@ export default function About() {
                 We would like to partner with you for all your ICT needs
               </p>
               <p className="text-gray-600">
-                With over 22 years of experience and a proven track record, SMCI is ready to provide world-class ICT solutions 
+                With over 25 years of experience and a proven track record, SMCI is ready to provide world-class ICT solutions 
                 that meet your specific requirements and exceed your expectations.
               </p>
             </div>
@@ -102,7 +102,7 @@ export default function About() {
 
               <p className="text-gray-700 leading-relaxed">
 
-                The far-reaching Consultancy product Portfolio incorporates the below detailed worlds.
+                The far-reaching Consultancy product Clientelle Portfolio incorporates the below detailed worlds.
 
               </p>
 
@@ -138,7 +138,7 @@ export default function About() {
 
               <p className="text-gray-700 mb-4 leading-relaxed">
 
-                Sandcircle Management Consultancy International (SMCI) is a premier IT solutions provider based in Bulawayo, Zimbabwe. Registered as Sandcircle Trading Private Limited (Reg No: 1033/2001) on 10 October 2001, we have over 22 years of trading experience.
+                Sandcircle Management Consultancy International (SMCI) is a premier IT solutions provider based in Bulawayo, Zimbabwe. Registered as Sandcircle Trading Private Limited (Reg No: 1033/2001) on 10 October 2001, we have over 25 years of trading experience.
 
               </p>
 

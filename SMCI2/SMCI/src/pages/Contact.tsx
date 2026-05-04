@@ -19,7 +19,7 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact SMCI - Get in Touch</title>
-        <meta name="description" content="Contact SMCI in Bulawayo. Phone: +263 292 884988. Email: admin@smci.co.zw. Visit us for all your IT needs." />
+        <meta name="description" content="Contact SMCI in Bulawayo. Phone: +263 292 884998. Email: admin@smci.co.zw. Visit us for all your IT needs." />
       </Helmet>
 
       <div className="bg-gray-50 min-h-screen py-16">
@@ -69,7 +69,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Telephone</h3>
-                      <p className="text-gray-600 font-medium">+263 292 884988</p>
+                      <p className="text-gray-600 font-medium">+263 292 884998</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -79,8 +79,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-gray-900">Mobile / WhatsApp</h3>
                       <div className="text-gray-600 space-y-1">
-                        <p>+263 772 351 216</p>
-                        <p>+263 772 673 373</p>
+                                                <p>+263 772 673 373</p>
                         <p>+263 772 673 374</p>
                       </div>
                     </div>
@@ -207,7 +206,7 @@ const Contact = () => {
                       const message = encodeURIComponent(
                         `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
                       );
-                      window.location.href = `https://wa.me/263292884988?text=${message}`;
+                      window.location.href = `https://wa.me/263292884998?text=${message}`;
                     }}
                   >
                     <Send className="w-4 h-4" /> Send via WhatsApp

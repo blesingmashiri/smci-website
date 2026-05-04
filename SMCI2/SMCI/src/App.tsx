@@ -13,7 +13,11 @@ import Careers from "./pages/Careers.jsx";
 import Process from "./pages/Process";
 import Testimonials from "./pages/Testimonials";
 import Timeline from "./pages/Timeline";
+import EventsTimeline from "./pages/EventsTimeline";
+import AttacheesTimeline from "./pages/AttacheesTimeline";
+import ProjectsTimeline from "./pages/ProjectsTimeline";
 import Resources from "./pages/Resources";
+import Policies from "./pages/Policies";
 import Support from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
@@ -33,7 +37,11 @@ export default function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/timeline" element={<Timeline />} />
+          <Route path="/events-timeline" element={<EventsTimeline />} />
+          <Route path="/attachees-timeline" element={<AttacheesTimeline />} />
+          <Route path="/projects-timeline" element={<ProjectsTimeline />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/policies" element={<Policies />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/events" element={<Events />} />
           <Route path="/careers" element={<Careers />} />

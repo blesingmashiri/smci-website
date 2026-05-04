@@ -91,7 +91,7 @@ export default function Navbar() {
                   }`}
                 >
                   <Briefcase size={14} />
-                  Portfolio
+                  Clientelle Portfolio
                 </Link>
                 {isActive("/portfolio") && (
                   <div className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600"></div>
@@ -294,7 +294,7 @@ export default function Navbar() {
               }}
             >
               <Briefcase size={18} />
-              Portfolio
+              Clientelle Portfolio
             </Link>
 
             <Link

@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Helmet>
         <title>About SMCI - Vision, Mission & Values</title>
-        <meta name="description" content="Learn about SMCI's 22-year journey, our vision to be the leading IT consultancy in Zimbabwe, and our commitment to efficiency and experience." />
+        <meta name="description" content="Learn about SMCI's 25-year journey, our vision to be the leading IT consultancy in Zimbabwe, and our commitment to efficiency and experience." />
       </Helmet>
  
       {/* Hero Section */}
@@ -42,7 +42,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Company Profile</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  <strong>Sandcircle Management Consultancy International (SMCI)</strong> is a premier IT solutions provider based in Bulawayo, Zimbabwe. Registered as <strong>Sandcircle Trading Private Limited</strong> (Reg No: 1033/2001) on <strong>10 October 2001</strong>, we have over 22 years of trading experience.
+                  <strong>Sandcircle Management Consultancy International (SMCI)</strong> is a premier IT solutions provider based in Bulawayo, Zimbabwe. Registered as <strong>Sandcircle Trading Private Limited</strong> (Reg No: 1033/2001) on <strong>10 October 2001</strong>, we have 25 years of trading experience.
                 </p>
                 <p>
                   We are a duly tax-compliant organization (ZIMRA TIN: 2000261674, VAT: 10020676). Our journey began with a commitment to providing high-quality IT consultancy, and today we stand as a leader in educational and corporate technology solutions.
@@ -79,7 +79,7 @@ const About = () => {
                 </li>
                 <li className="flex justify-between pt-2">
                   <span className="text-gray-500">Experience</span>
-                  <span className="font-semibold text-gray-800">22+ Years</span>
+                  <span className="font-semibold text-gray-800">25 Years</span>
                 </li>
               </ul>
             </motion.div>
@@ -104,7 +104,7 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-gray-600">
-                To be the leading Information Technology Consultancy in Zimbabwe, recognized for innovation, reliability, and excellence in service delivery.
+                To be the preferred one stop choice in the provision of ICT hardware and software based solutions packages.
               </p>
             </motion.div>
  
@@ -121,7 +121,10 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-gray-600">
-                To provide superior, cost-effective IT solutions and training that empower individuals and organizations to achieve their full potential through technology.
+                To achieve this we will:
+              </p>
+              <p className="text-gray-600 mt-2">
+                Design, acquire, and produce world-class standards in ICT based packages that will satisfy our wide ranging Clientele needs using optimal resources to ensure maximum returns on the clients' investments and our organisation.
               </p>
             </motion.div>
  
@@ -139,19 +142,19 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Values</h3>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Integrity & Honesty
+                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Honesty
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Professionalism
+                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Transparency
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Innovation
+                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Courtesy
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Customer Centricity
+                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Efficiency
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Teamwork
+                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span> Proficiency
                 </li>
               </ul>
             </motion.div>

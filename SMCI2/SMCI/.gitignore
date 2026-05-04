@@ -36,7 +36,6 @@ Thumbs.db
 # Images are in public/ and will be built to dist/
 
 # Personal files (examples - remove these before committing)
-README.md
 *.docx
 *.pdf
 *.txt

@@ -35,7 +35,7 @@ const Chatbot = () => {
     if (lowerMessage.includes('service')) {
       return 'We offer Computer Sales, Networking, Maintenance, Consumables, Lab Design, Software Solutions, Training, Security Systems, and E-Learning. Visit our Services page for more details!';
     } else if (lowerMessage.includes('contact')) {
-      return 'You can reach us at admin@smci.co.zw or call +263 292 884988. We are located in Bulawayo, Zimbabwe.';
+      return 'You can reach us at admin@smci.co.zw or call +263 292 884998. We are located in Bulawayo, Zimbabwe.';
     } else if (lowerMessage.includes('product')) {
       return 'Visit our Shop page to browse our complete product catalogue including laptops, desktops, printers, and accessories.';
     } else if (lowerMessage.includes('support')) {
